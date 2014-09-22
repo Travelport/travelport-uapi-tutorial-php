@@ -12,7 +12,7 @@
 * 
 * (C) 2014 Travelport, Inc. 
 * This code is for illustration purposes only.
-* Schema used (UAPI_6.1) 
+* Schema used (UAPI_8.0) 
 */
 if(!isset($_SESSION)){ 
 	session_start();
@@ -102,9 +102,9 @@ if($_SESSION["NUMADULTS"] == '2'){
 $message = <<<EOM
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
    <soapenv:Body>
-      <univ:HotelCreateReservationReq AuthorizedBy="user" TargetBranch="$TARGETBRANCH" TraceId="trace" UserAcceptance="true" ProviderCode="$PROVIDER" xmlns:univ="http://www.travelport.com/schema/universal_v26_0">
-         <com:BillingPointOfSaleInfo OriginApplication="UAPI" xmlns:com="http://www.travelport.com/schema/common_v26_0"/>
-         <com:BookingTraveler Age="$AGE1" DOB="$DOB1" Gender="$GEN1" Key="/qloV1aUQNuQVeqc9YMwBg==" Nationality="$COUNTRY1" TravelerType="$TRAVELER1" xmlns:com="http://www.travelport.com/schema/common_v26_0">
+      <univ:HotelCreateReservationReq AuthorizedBy="user" TargetBranch="$TARGETBRANCH" TraceId="trace" UserAcceptance="true" ProviderCode="$PROVIDER" xmlns:univ="http://www.travelport.com/schema/universal_v29_0">
+         <com:BillingPointOfSaleInfo OriginApplication="UAPI" xmlns:com="http://www.travelport.com/schema/common_v29_0"/>
+         <com:BookingTraveler Age="$AGE1" DOB="$DOB1" Gender="$GEN1" Key="/qloV1aUQNuQVeqc9YMwBg==" Nationality="$COUNTRY1" TravelerType="$TRAVELER1" xmlns:com="http://www.travelport.com/schema/common_v29_0">
             <com:BookingTravelerName First="$FIRST1" Last="$LAST1" Prefix="$PREF1"/>
             <com:PhoneNumber AreaCode="$AREACODE" CountryCode="$COUNTRYCODE" Location="$LOC" Number="$PHONE1" Type="$PHONETYPE1"/>
             <com:Email EmailID="test@travelport.com" Type="$EMAILTYPE"/>
@@ -117,7 +117,7 @@ $message = <<<EOM
                <com:Country>$COUNTRY</com:Country>
             </com:Address>
          </com:BookingTraveler>
-         <com:BookingTraveler Age="$AGE2" DOB="$DOB2" Gender="$GEN2" Key="TpWYkY2oSU66ZofoGRgbHg==" Nationality="$COUNTRY2" TravelerType="$TRAVELER2" xmlns:com="http://www.travelport.com/schema/common_v26_0">
+         <com:BookingTraveler Age="$AGE2" DOB="$DOB2" Gender="$GEN2" Key="TpWYkY2oSU66ZofoGRgbHg==" Nationality="$COUNTRY2" TravelerType="$TRAVELER2" xmlns:com="http://www.travelport.com/schema/common_v29_0">
             <com:BookingTravelerName First="$FIRST2" Last="$LAST2" Prefix="$PREF2"/>
             <com:PhoneNumber AreaCode="$AREACODE" CountryCode="$COUNTRYCODE" Location="$LOC" Number="$PHONE2" Type="$PHONETYPE2"/>
             <com:Address>
@@ -129,20 +129,20 @@ $message = <<<EOM
                <com:Country>$COUNTRY</com:Country>
             </com:Address>
          </com:BookingTraveler>
-         <hot:HotelRateDetail RatePlanType="$RatePlanType" Total="$Total" xmlns:hot="http://www.travelport.com/schema/hotel_v26_0"/>
-         <hot:HotelProperty HotelChain="$HotelChain" HotelCode="$HotelCode" Name="$Name" xmlns:hot="http://www.travelport.com/schema/hotel_v26_0">
-            <hotel:PropertyAddress xmlns:hotel="http://www.travelport.com/schema/hotel_v26_0">
+         <hot:HotelRateDetail RatePlanType="$RatePlanType" Total="$Total" xmlns:hot="http://www.travelport.com/schema/hotel_v29_0"/>
+         <hot:HotelProperty HotelChain="$HotelChain" HotelCode="$HotelCode" Name="$Name" xmlns:hot="http://www.travelport.com/schema/hotel_v29_0">
+            <hotel:PropertyAddress xmlns:hotel="http://www.travelport.com/schema/hotel_v29_0">
                <hotel:Address>$Address1</hotel:Address>
             </hotel:PropertyAddress>
          </hot:HotelProperty>
-         <hot:HotelStay xmlns:hot="http://www.travelport.com/schema/hotel_v26_0">
+         <hot:HotelStay xmlns:hot="http://www.travelport.com/schema/hotel_v29_0">
             <hot:CheckinDate>$CHECKINDATE</hot:CheckinDate>
             <hot:CheckoutDate>$CHECKOUTDATE</hot:CheckoutDate>
          </hot:HotelStay>
-         <com:Guarantee Type="Guarantee" xmlns:com="http://www.travelport.com/schema/common_v26_0">
+         <com:Guarantee Type="Guarantee" xmlns:com="http://www.travelport.com/schema/common_v29_0">
             <com:CreditCard BankCountryCode="$CCBCOUNTRY" BankName="$CCBANK" ExpDate="$CCEXP" Number="$CCNUM" Type="$CCTYPE"/>
          </com:Guarantee>
-         <hot:GuestInformation NumberOfRooms="1" xmlns:hot="http://www.travelport.com/schema/hotel_v26_0">
+         <hot:GuestInformation NumberOfRooms="1" xmlns:hot="http://www.travelport.com/schema/hotel_v29_0">
             <hot:NumberOfAdults>2</hot:NumberOfAdults>
          </hot:GuestInformation>
       </univ:HotelCreateReservationReq>
@@ -154,9 +154,9 @@ else{
 $message = <<<EOM
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
    <soapenv:Body>
-      <univ:HotelCreateReservationReq AuthorizedBy="user" TargetBranch="$TARGETBRANCH" TraceId="trace" UserAcceptance="true" ProviderCode="$PROVIDER" xmlns:univ="http://www.travelport.com/schema/universal_v26_0">
-         <com:BillingPointOfSaleInfo OriginApplication="UAPI" xmlns:com="http://www.travelport.com/schema/common_v26_0"/>
-         <com:BookingTraveler Age="$AGE1" DOB="$DOB1" Gender="$GEN1" Key="/qloV1aUQNuQVeqc9YMwBg==" Nationality="$COUNTRY1" TravelerType="$TRAVELER1" xmlns:com="http://www.travelport.com/schema/common_v26_0">
+      <univ:HotelCreateReservationReq AuthorizedBy="user" TargetBranch="$TARGETBRANCH" TraceId="trace" UserAcceptance="true" ProviderCode="$PROVIDER" xmlns:univ="http://www.travelport.com/schema/universal_v29_0">
+         <com:BillingPointOfSaleInfo OriginApplication="UAPI" xmlns:com="http://www.travelport.com/schema/common_v29_0"/>
+         <com:BookingTraveler Age="$AGE1" DOB="$DOB1" Gender="$GEN1" Key="/qloV1aUQNuQVeqc9YMwBg==" Nationality="$COUNTRY1" TravelerType="$TRAVELER1" xmlns:com="http://www.travelport.com/schema/common_v29_0">
             <com:BookingTravelerName First="$FIRST1" Last="$LAST1" Prefix="$PREF1"/>
             <com:PhoneNumber AreaCode="$AREACODE" CountryCode="$COUNTRYCODE" Location="$LOC" Number="$PHONE1" Type="$PHONETYPE1"/>
             <com:Email EmailID="test@travelport.com" Type="$EMAILTYPE"/>
@@ -169,20 +169,20 @@ $message = <<<EOM
                <com:Country>$COUNTRY</com:Country>
             </com:Address>
          </com:BookingTraveler>
-         <hot:HotelRateDetail RatePlanType="$RatePlanType" Total="$Total" xmlns:hot="http://www.travelport.com/schema/hotel_v26_0"/>
-         <hot:HotelProperty HotelChain="$HotelChain" HotelCode="$HotelCode" Name="$Name" xmlns:hot="http://www.travelport.com/schema/hotel_v26_0">
-            <hotel:PropertyAddress xmlns:hotel="http://www.travelport.com/schema/hotel_v26_0">
+         <hot:HotelRateDetail RatePlanType="$RatePlanType" Total="$Total" xmlns:hot="http://www.travelport.com/schema/hotel_v29_0"/>
+         <hot:HotelProperty HotelChain="$HotelChain" HotelCode="$HotelCode" Name="$Name" xmlns:hot="http://www.travelport.com/schema/hotel_v29_0">
+            <hotel:PropertyAddress xmlns:hotel="http://www.travelport.com/schema/hotel_v29_0">
                <hotel:Address>$Address1</hotel:Address>
             </hotel:PropertyAddress>
          </hot:HotelProperty>
-         <hot:HotelStay xmlns:hot="http://www.travelport.com/schema/hotel_v26_0">
+         <hot:HotelStay xmlns:hot="http://www.travelport.com/schema/hotel_v29_0">
             <hot:CheckinDate>$CHECKINDATE</hot:CheckinDate>
             <hot:CheckoutDate>$CHECKOUTDATE</hot:CheckoutDate>
          </hot:HotelStay>
-         <com:Guarantee Type="Guarantee" xmlns:com="http://www.travelport.com/schema/common_v26_0">
+         <com:Guarantee Type="Guarantee" xmlns:com="http://www.travelport.com/schema/common_v29_0">
             <com:CreditCard BankCountryCode="$CCBCOUNTRY" BankName="$CCBANK" ExpDate="$CCEXP" Number="$CCNUM" Type="$CCTYPE"/>
          </com:Guarantee>
-         <hot:GuestInformation NumberOfRooms="1" xmlns:hot="http://www.travelport.com/schema/hotel_v26_0">
+         <hot:GuestInformation NumberOfRooms="1" xmlns:hot="http://www.travelport.com/schema/hotel_v29_0">
             <hot:NumberOfAdults>2</hot:NumberOfAdults>
          </hot:GuestInformation>
       </univ:HotelCreateReservationReq>
@@ -196,9 +196,9 @@ if($_SESSION["NUMADULTS"] == '2'){
 $message = <<<EOM
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
    <soapenv:Body>
-      <univ:HotelCreateReservationReq AuthorizedBy="user" TargetBranch="$TARGETBRANCH" TraceId="trace" UserAcceptance="true" ProviderCode="$PROVIDER" xmlns:univ="http://www.travelport.com/schema/universal_v26_0">
-         <com:BillingPointOfSaleInfo OriginApplication="UAPI" xmlns:com="http://www.travelport.com/schema/common_v26_0"/>
-         <com:BookingTraveler Age="$AGE1" DOB="$DOB1" Gender="$GEN1" Key="/qloV1aUQNuQVeqc9YMwBg==" Nationality="$COUNTRY1" TravelerType="$TRAVELER1" xmlns:com="http://www.travelport.com/schema/common_v26_0">
+      <univ:HotelCreateReservationReq AuthorizedBy="user" TargetBranch="$TARGETBRANCH" TraceId="trace" UserAcceptance="true" ProviderCode="$PROVIDER" xmlns:univ="http://www.travelport.com/schema/universal_v29_0">
+         <com:BillingPointOfSaleInfo OriginApplication="UAPI" xmlns:com="http://www.travelport.com/schema/common_v29_0"/>
+         <com:BookingTraveler Age="$AGE1" DOB="$DOB1" Gender="$GEN1" Key="/qloV1aUQNuQVeqc9YMwBg==" Nationality="$COUNTRY1" TravelerType="$TRAVELER1" xmlns:com="http://www.travelport.com/schema/common_v29_0">
             <com:BookingTravelerName First="$FIRST1" Last="$LAST1" Prefix="$PREF1"/>
             <com:PhoneNumber AreaCode="$AREACODE" CountryCode="$COUNTRYCODE" Location="$LOC" Number="$PHONE1" Type="$PHONETYPE1"/>
             <com:Email EmailID="test@travelport.com" Type="$EMAILTYPE"/>
@@ -211,7 +211,7 @@ $message = <<<EOM
                <com:Country>$COUNTRY</com:Country>
             </com:Address>
          </com:BookingTraveler>
-         <com:BookingTraveler Age="$AGE2" DOB="$DOB2" Gender="$GEN2" Key="TpWYkY2oSU66ZofoGRgbHg==" Nationality="$COUNTRY2" TravelerType="$TRAVELER2" xmlns:com="http://www.travelport.com/schema/common_v26_0">
+         <com:BookingTraveler Age="$AGE2" DOB="$DOB2" Gender="$GEN2" Key="TpWYkY2oSU66ZofoGRgbHg==" Nationality="$COUNTRY2" TravelerType="$TRAVELER2" xmlns:com="http://www.travelport.com/schema/common_v29_0">
             <com:BookingTravelerName First="$FIRST2" Last="$LAST2" Prefix="$PREF2"/>
             <com:PhoneNumber AreaCode="$AREACODE" CountryCode="$COUNTRYCODE" Location="$LOC" Number="$PHONE2" Type="$PHONETYPE2"/>
             <com:Address>
@@ -223,23 +223,23 @@ $message = <<<EOM
                <com:Country>$COUNTRY</com:Country>
             </com:Address>
          </com:BookingTraveler>
-         <hot:HotelRateDetail RatePlanType="$RatePlanType" Surcharge="$Surcharge" ApproximateBase="$ApproximateBase" ApproximateTax="$ApproximateTax" RateSupplier="$RateSupplier" RateOfferId="$RateOfferId" xmlns:hot="http://www.travelport.com/schema/hotel_v26_0"/>
-         <hot:HotelProperty HotelChain="$HotelChain" HotelCode="$HotelCode" Name="$Name" xmlns:hot="http://www.travelport.com/schema/hotel_v26_0">
-            <hotel:PropertyAddress xmlns:hotel="http://www.travelport.com/schema/hotel_v26_0">
+         <hot:HotelRateDetail RatePlanType="$RatePlanType" Surcharge="$Surcharge" ApproximateBase="$ApproximateBase" ApproximateTax="$ApproximateTax" RateSupplier="$RateSupplier" RateOfferId="$RateOfferId" xmlns:hot="http://www.travelport.com/schema/hotel_v29_0"/>
+         <hot:HotelProperty HotelChain="$HotelChain" HotelCode="$HotelCode" Name="$Name" xmlns:hot="http://www.travelport.com/schema/hotel_v29_0">
+            <hotel:PropertyAddress xmlns:hotel="http://www.travelport.com/schema/hotel_v29_0">
                <hotel:Address>$Address1</hotel:Address>
             </hotel:PropertyAddress>
          </hot:HotelProperty>
-         <hot:HotelStay xmlns:hot="http://www.travelport.com/schema/hotel_v26_0">
+         <hot:HotelStay xmlns:hot="http://www.travelport.com/schema/hotel_v29_0">
             <hot:CheckinDate>$CHECKINDATE</hot:CheckinDate>
             <hot:CheckoutDate>$CHECKOUTDATE</hot:CheckoutDate>
          </hot:HotelStay>
-         <com:Guarantee Type="Guarantee" xmlns:com="http://www.travelport.com/schema/common_v26_0">
+         <com:Guarantee Type="Guarantee" xmlns:com="http://www.travelport.com/schema/common_v29_0">
             <com:CreditCard BankCountryCode="$CCBCOUNTRY" BankName="$CCBANK" CVV="$CVV" ExpDate="$CCEXP" Name="$CCNAME" Number="$CCNUM" Type="$CCTYPE"/>
          </com:Guarantee>
-         <hot:GuestInformation NumberOfRooms="1" xmlns:hot="http://www.travelport.com/schema/hotel_v26_0">
+         <hot:GuestInformation NumberOfRooms="1" xmlns:hot="http://www.travelport.com/schema/hotel_v29_0">
             <hot:NumberOfAdults>2</hot:NumberOfAdults>
          </hot:GuestInformation>
-         <com:HostToken Host="$PROVIDER" xmlns:com="http://www.travelport.com/schema/common_v26_0">$Token</com:HostToken>
+         <com:HostToken Host="$PROVIDER" xmlns:com="http://www.travelport.com/schema/common_v29_0">$Token</com:HostToken>
       </univ:HotelCreateReservationReq>
    </soapenv:Body>
 </soapenv:Envelope>
@@ -249,9 +249,9 @@ else{
 $message = <<<EOM
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
    <soapenv:Body>
-      <univ:HotelCreateReservationReq AuthorizedBy="user" TargetBranch="$TARGETBRANCH" TraceId="trace" UserAcceptance="true" ProviderCode="$PROVIDER" xmlns:univ="http://www.travelport.com/schema/universal_v26_0">
-         <com:BillingPointOfSaleInfo OriginApplication="UAPI" xmlns:com="http://www.travelport.com/schema/common_v26_0"/>
-         <com:BookingTraveler Age="$AGE1" DOB="$DOB1" Gender="$GEN1" Key="/qloV1aUQNuQVeqc9YMwBg==" Nationality="$COUNTRY1" TravelerType="$TRAVELER1" xmlns:com="http://www.travelport.com/schema/common_v26_0">
+      <univ:HotelCreateReservationReq AuthorizedBy="user" TargetBranch="$TARGETBRANCH" TraceId="trace" UserAcceptance="true" ProviderCode="$PROVIDER" xmlns:univ="http://www.travelport.com/schema/universal_v29_0">
+         <com:BillingPointOfSaleInfo OriginApplication="UAPI" xmlns:com="http://www.travelport.com/schema/common_v29_0"/>
+         <com:BookingTraveler Age="$AGE1" DOB="$DOB1" Gender="$GEN1" Key="/qloV1aUQNuQVeqc9YMwBg==" Nationality="$COUNTRY1" TravelerType="$TRAVELER1" xmlns:com="http://www.travelport.com/schema/common_v29_0">
             <com:BookingTravelerName First="$FIRST1" Last="$LAST1" Prefix="$PREF1"/>
             <com:PhoneNumber AreaCode="$AREACODE" CountryCode="$COUNTRYCODE" Location="$LOC" Number="$PHONE1" Type="$PHONETYPE1"/>
             <com:Email EmailID="test@travelport.com" Type="$EMAILTYPE"/>
@@ -264,23 +264,23 @@ $message = <<<EOM
                <com:Country>$COUNTRY</com:Country>
             </com:Address>
          </com:BookingTraveler>
-         <hot:HotelRateDetail RatePlanType="$RatePlanType" Surcharge="$Surcharge" ApproximateBase="$ApproximateBase" ApproximateTax="$ApproximateTax" RateSupplier="$RateSupplier" RateOfferId="$RateOfferId" xmlns:hot="http://www.travelport.com/schema/hotel_v26_0"/>
-         <hot:HotelProperty HotelChain="$HotelChain" HotelCode="$HotelCode" Name="$Name" xmlns:hot="http://www.travelport.com/schema/hotel_v26_0">
-            <hotel:PropertyAddress xmlns:hotel="http://www.travelport.com/schema/hotel_v26_0">
+         <hot:HotelRateDetail RatePlanType="$RatePlanType" Surcharge="$Surcharge" ApproximateBase="$ApproximateBase" ApproximateTax="$ApproximateTax" RateSupplier="$RateSupplier" RateOfferId="$RateOfferId" xmlns:hot="http://www.travelport.com/schema/hotel_v29_0"/>
+         <hot:HotelProperty HotelChain="$HotelChain" HotelCode="$HotelCode" Name="$Name" xmlns:hot="http://www.travelport.com/schema/hotel_v29_0">
+            <hotel:PropertyAddress xmlns:hotel="http://www.travelport.com/schema/hotel_v29_0">
                <hotel:Address>$Address1</hotel:Address>
             </hotel:PropertyAddress>
          </hot:HotelProperty>
-         <hot:HotelStay xmlns:hot="http://www.travelport.com/schema/hotel_v26_0">
+         <hot:HotelStay xmlns:hot="http://www.travelport.com/schema/hotel_v29_0">
             <hot:CheckinDate>$CHECKINDATE</hot:CheckinDate>
             <hot:CheckoutDate>$CHECKOUTDATE</hot:CheckoutDate>
          </hot:HotelStay>
-         <com:Guarantee Type="Guarantee" xmlns:com="http://www.travelport.com/schema/common_v26_0">
+         <com:Guarantee Type="Guarantee" xmlns:com="http://www.travelport.com/schema/common_v29_0">
             <com:CreditCard BankCountryCode="$CCBCOUNTRY" BankName="$CCBANK" CVV="$CVV" ExpDate="$CCEXP" Name="$CCNAME" Number="$CCNUM" Type="$CCTYPE"/>
          </com:Guarantee>
-         <hot:GuestInformation NumberOfRooms="1" xmlns:hot="http://www.travelport.com/schema/hotel_v26_0">
+         <hot:GuestInformation NumberOfRooms="1" xmlns:hot="http://www.travelport.com/schema/hotel_v29_0">
             <hot:NumberOfAdults>2</hot:NumberOfAdults>
          </hot:GuestInformation>
-         <com:HostToken Host="$PROVIDER" xmlns:com="http://www.travelport.com/schema/common_v26_0">$Token</com:HostToken>
+         <com:HostToken Host="$PROVIDER" xmlns:com="http://www.travelport.com/schema/common_v29_0">$Token</com:HostToken>
       </univ:HotelCreateReservationReq>
    </soapenv:Body>
 </soapenv:Envelope>
@@ -292,9 +292,9 @@ if($_SESSION["NUMADULTS"] == '2'){
 $message = <<<EOM
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
    <soapenv:Body>
-      <univ:HotelCreateReservationReq AuthorizedBy="user" TargetBranch="$TARGETBRANCH" TraceId="trace" UserAcceptance="true" ProviderCode="$PROVIDER" xmlns:univ="http://www.travelport.com/schema/universal_v26_0">
-         <com:BillingPointOfSaleInfo OriginApplication="UAPI" xmlns:com="http://www.travelport.com/schema/common_v26_0"/>
-         <com:BookingTraveler Age="$AGE1" DOB="$DOB1" Gender="$GEN1" Key="/qloV1aUQNuQVeqc9YMwBg==" Nationality="$COUNTRY1" TravelerType="$TRAVELER1" xmlns:com="http://www.travelport.com/schema/common_v26_0">
+      <univ:HotelCreateReservationReq AuthorizedBy="user" TargetBranch="$TARGETBRANCH" TraceId="trace" UserAcceptance="true" ProviderCode="$PROVIDER" xmlns:univ="http://www.travelport.com/schema/universal_v29_0">
+         <com:BillingPointOfSaleInfo OriginApplication="UAPI" xmlns:com="http://www.travelport.com/schema/common_v29_0"/>
+         <com:BookingTraveler Age="$AGE1" DOB="$DOB1" Gender="$GEN1" Key="/qloV1aUQNuQVeqc9YMwBg==" Nationality="$COUNTRY1" TravelerType="$TRAVELER1" xmlns:com="http://www.travelport.com/schema/common_v29_0">
             <com:BookingTravelerName First="$FIRST1" Last="$LAST1" Prefix="$PREF1"/>
             <com:PhoneNumber AreaCode="$AREACODE" CountryCode="$COUNTRYCODE" Location="$LOC" Number="$PHONE1" Type="$PHONETYPE1"/>
             <com:Email EmailID="test@travelport.com" Type="$EMAILTYPE"/>
@@ -307,7 +307,7 @@ $message = <<<EOM
                <com:Country>$COUNTRY</com:Country>
             </com:Address>
          </com:BookingTraveler>
-         <com:BookingTraveler Age="$AGE2" DOB="$DOB2" Gender="$GEN2" Key="TpWYkY2oSU66ZofoGRgbHg==" Nationality="$COUNTRY2" TravelerType="$TRAVELER2" xmlns:com="http://www.travelport.com/schema/common_v26_0">
+         <com:BookingTraveler Age="$AGE2" DOB="$DOB2" Gender="$GEN2" Key="TpWYkY2oSU66ZofoGRgbHg==" Nationality="$COUNTRY2" TravelerType="$TRAVELER2" xmlns:com="http://www.travelport.com/schema/common_v29_0">
             <com:BookingTravelerName First="$FIRST2" Last="$LAST2" Prefix="$PREF2"/>
             <com:PhoneNumber AreaCode="$AREACODE" CountryCode="$COUNTRYCODE" Location="$LOC" Number="$PHONE2" Type="$PHONETYPE2"/>
             <com:Address>
@@ -319,20 +319,20 @@ $message = <<<EOM
                <com:Country>$COUNTRY</com:Country>
             </com:Address>
          </com:BookingTraveler>
-         <hot:HotelRateDetail RatePlanType="$RatePlanType" RateGuaranteed="$RateGuaranteed" xmlns:hot="http://www.travelport.com/schema/hotel_v26_0"/>
-         <hot:HotelProperty HotelChain="$HotelChain" HotelCode="$HotelCode" Name="$Name" xmlns:hot="http://www.travelport.com/schema/hotel_v26_0">
-            <hotel:PropertyAddress xmlns:hotel="http://www.travelport.com/schema/hotel_v26_0">
+         <hot:HotelRateDetail RatePlanType="$RatePlanType" RateGuaranteed="$RateGuaranteed" xmlns:hot="http://www.travelport.com/schema/hotel_v29_0"/>
+         <hot:HotelProperty HotelChain="$HotelChain" HotelCode="$HotelCode" Name="$Name" xmlns:hot="http://www.travelport.com/schema/hotel_v29_0">
+            <hotel:PropertyAddress xmlns:hotel="http://www.travelport.com/schema/hotel_v29_0">
                <hotel:Address>$Address1</hotel:Address>
             </hotel:PropertyAddress>
          </hot:HotelProperty>
-         <hot:HotelStay xmlns:hot="http://www.travelport.com/schema/hotel_v26_0">
+         <hot:HotelStay xmlns:hot="http://www.travelport.com/schema/hotel_v29_0">
             <hot:CheckinDate>$CHECKINDATE</hot:CheckinDate>
             <hot:CheckoutDate>$CHECKOUTDATE</hot:CheckoutDate>
          </hot:HotelStay>
-         <com:Guarantee Type="Guarantee" xmlns:com="http://www.travelport.com/schema/common_v26_0">
+         <com:Guarantee Type="Guarantee" xmlns:com="http://www.travelport.com/schema/common_v29_0">
             <com:CreditCard BankCountryCode="$CCBCOUNTRY" BankName="$CCBANK" ExpDate="$CCEXP" Number="$CCNUM" Type="$CCTYPE"/>
          </com:Guarantee>
-         <hot:GuestInformation NumberOfRooms="1" xmlns:hot="http://www.travelport.com/schema/hotel_v26_0">
+         <hot:GuestInformation NumberOfRooms="1" xmlns:hot="http://www.travelport.com/schema/hotel_v29_0">
             <hot:NumberOfAdults>2</hot:NumberOfAdults>
          </hot:GuestInformation>
       </univ:HotelCreateReservationReq>
@@ -344,9 +344,9 @@ else{
 $message = <<<EOM
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
    <soapenv:Body>
-      <univ:HotelCreateReservationReq AuthorizedBy="user" TargetBranch="$TARGETBRANCH" TraceId="trace" UserAcceptance="true" ProviderCode="$PROVIDER" xmlns:univ="http://www.travelport.com/schema/universal_v26_0">
-         <com:BillingPointOfSaleInfo OriginApplication="UAPI" xmlns:com="http://www.travelport.com/schema/common_v26_0"/>
-         <com:BookingTraveler Age="$AGE1" DOB="$DOB1" Gender="$GEN1" Key="/qloV1aUQNuQVeqc9YMwBg==" Nationality="$COUNTRY1" TravelerType="$TRAVELER1" xmlns:com="http://www.travelport.com/schema/common_v26_0">
+      <univ:HotelCreateReservationReq AuthorizedBy="user" TargetBranch="$TARGETBRANCH" TraceId="trace" UserAcceptance="true" ProviderCode="$PROVIDER" xmlns:univ="http://www.travelport.com/schema/universal_v29_0">
+         <com:BillingPointOfSaleInfo OriginApplication="UAPI" xmlns:com="http://www.travelport.com/schema/common_v29_0"/>
+         <com:BookingTraveler Age="$AGE1" DOB="$DOB1" Gender="$GEN1" Key="/qloV1aUQNuQVeqc9YMwBg==" Nationality="$COUNTRY1" TravelerType="$TRAVELER1" xmlns:com="http://www.travelport.com/schema/common_v29_0">
             <com:BookingTravelerName First="$FIRST1" Last="$LAST1" Prefix="$PREF1"/>
             <com:PhoneNumber AreaCode="$AREACODE" CountryCode="$COUNTRYCODE" Location="$LOC" Number="$PHONE1" Type="$PHONETYPE1"/>
             <com:Email EmailID="test@travelport.com" Type="$EMAILTYPE"/>
@@ -359,20 +359,20 @@ $message = <<<EOM
                <com:Country>$COUNTRY</com:Country>
             </com:Address>
          </com:BookingTraveler>
-         <hot:HotelRateDetail RatePlanType="$RatePlanType" RateGuaranteed="$RateGuaranteed" xmlns:hot="http://www.travelport.com/schema/hotel_v26_0"/>
-         <hot:HotelProperty HotelChain="$HotelChain" HotelCode="$HotelCode" Name="$Name" xmlns:hot="http://www.travelport.com/schema/hotel_v26_0">
-            <hotel:PropertyAddress xmlns:hotel="http://www.travelport.com/schema/hotel_v26_0">
+         <hot:HotelRateDetail RatePlanType="$RatePlanType" RateGuaranteed="$RateGuaranteed" xmlns:hot="http://www.travelport.com/schema/hotel_v29_0"/>
+         <hot:HotelProperty HotelChain="$HotelChain" HotelCode="$HotelCode" Name="$Name" xmlns:hot="http://www.travelport.com/schema/hotel_v29_0">
+            <hotel:PropertyAddress xmlns:hotel="http://www.travelport.com/schema/hotel_v29_0">
                <hotel:Address>$Address1</hotel:Address>
             </hotel:PropertyAddress>
          </hot:HotelProperty>
-         <hot:HotelStay xmlns:hot="http://www.travelport.com/schema/hotel_v26_0">
+         <hot:HotelStay xmlns:hot="http://www.travelport.com/schema/hotel_v29_0">
             <hot:CheckinDate>$CHECKINDATE</hot:CheckinDate>
             <hot:CheckoutDate>$CHECKOUTDATE</hot:CheckoutDate>
          </hot:HotelStay>
-         <com:Guarantee Type="Guarantee" xmlns:com="http://www.travelport.com/schema/common_v26_0">
+         <com:Guarantee Type="Guarantee" xmlns:com="http://www.travelport.com/schema/common_v29_0">
             <com:CreditCard BankCountryCode="$CCBCOUNTRY" BankName="$CCBANK" ExpDate="$CCEXP" Number="$CCNUM" Type="$CCTYPE"/>
          </com:Guarantee>
-         <hot:GuestInformation NumberOfRooms="1" xmlns:hot="http://www.travelport.com/schema/hotel_v26_0">
+         <hot:GuestInformation NumberOfRooms="1" xmlns:hot="http://www.travelport.com/schema/hotel_v29_0">
             <hot:NumberOfAdults>2</hot:NumberOfAdults>
          </hot:GuestInformation>
       </univ:HotelCreateReservationReq>

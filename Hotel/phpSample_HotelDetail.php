@@ -132,7 +132,7 @@ function parseOutput(){	//parse the Search response to get values to use in deta
 	}
 	$Token = 'Token';
 	foreach($Results->children('hotel',true) as $nodes){
-		foreach($nodes->children('common_v26_0',true) as $hsr){
+		foreach($nodes->children('common_v29_0',true) as $hsr){
 			if(strcmp($hsr->getName(),'HostToken') == 0){
 				$GLOBALS[$Token] = $hsr[0];
 			}

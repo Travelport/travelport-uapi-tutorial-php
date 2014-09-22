@@ -19,7 +19,7 @@ $message = <<<EOM
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
    <soapenv:Header/>
    <soapenv:Body>
-      <air:AvailabilitySearchReq TraceId="trace" AuthorizedBy="user" TargetBranch="$TARGETBRANCH" xmlns:air="http://www.travelport.com/schema/air_v25_0" xmlns:com="http://www.travelport.com/schema/common_v25_0">
+      <air:AvailabilitySearchReq TraceId="trace" AuthorizedBy="user" TargetBranch="$TARGETBRANCH" xmlns:air="http://www.travelport.com/schema/air_v29_0" xmlns:com="http://www.travelport.com/schema/common_v29_0">
          <com:BillingPointOfSaleInfo OriginApplication="F0730B69-UAPI"/>
          <air:SearchAirLeg>
             <air:SearchOrigin>
@@ -28,7 +28,7 @@ $message = <<<EOM
             <air:SearchDestination>
                <com:Airport Code="EDI"/>
             </air:SearchDestination>
-            <air:SearchDepTime PreferredTime="2014-01-21">
+            <air:SearchDepTime PreferredTime="2014-12-31">
             </air:SearchDepTime>            
          </air:SearchAirLeg>
          <air:AirSearchModifiers>

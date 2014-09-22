@@ -12,7 +12,7 @@
 * 
 * (C) 2014 Travelport, Inc. 
 * This code is for illustration purposes only.
-* Schema used (UAPI_6.1)
+* Schema used (UAPI_8.0)
 */
 
 if(!isset($_SESSION)){ 

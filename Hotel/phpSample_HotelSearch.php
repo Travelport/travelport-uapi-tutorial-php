@@ -12,7 +12,7 @@
 * 
 * (C) 2014 Travelport, Inc. 
 * This code is for illustration purposes only.
-* Schema used (UAPI_6.1) 
+* Schema used (UAPI_8.0) 
 */
 //
 if(!isset($_SESSION)){ 
@@ -40,9 +40,11 @@ $message = <<<EOM
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
 	<soapenv:Header/>
 	<soapenv:Body>
-		<hot:HotelSearchAvailabilityReq xmlns:com="http://www.travelport.com/schema/common_v26_0" xmlns:hot="http://www.travelport.com/schema/hotel_v26_0" AuthorizedBy="user" TargetBranch="$TARGETBRANCH" TraceId="trace">
+		<hot:HotelSearchAvailabilityReq xmlns:com="http://www.travelport.com/schema/common_v29_0" xmlns:hot="http://www.travelport.com/schema/hotel_v29_0" AuthorizedBy="user" TargetBranch="$TARGETBRANCH" TraceId="trace">
 			<com:BillingPointOfSaleInfo OriginApplication="UAPI"/>
-			<hot:HotelLocation Location="$LOCATION"/>
+			<hot:HotelSearchLocation>
+				<hot:HotelLocation Location="$LOCATION"/>
+			</hot:HotelSearchLocation>
 			<hot:HotelSearchModifiers NumberOfAdults="$NUMADULTS">
 				<com:PermittedProviders>
 					<com:Provider Code="$PROVIDER"/>

@@ -46,9 +46,9 @@
 		//Parsing data using xpath to get Hotel Confirmation details
 		$conf = simplexml_load_string($_SESSION["content"],NULL,NULL,"http://schemas.xmlsoap.org/soap/envelope/");
 		$conf->registerXPathNamespace('soap','http://schemas.xmlsoap.org/soap/envelope/');
-		$conf->registerXPathNamespace('hotel', 'http://www.travelport.com/schema/hotel_v26_0');
-		$conf->registerXPathNamespace('common_v26_0', 'http://www.travelport.com/schema/common_v26_0');
-		$conf->registerXPathNamespace('universal', 'http://www.travelport.com/schema/universal_v26_0');
+		$conf->registerXPathNamespace('hotel', 'http://www.travelport.com/schema/hotel_v29_0');
+		$conf->registerXPathNamespace('common_v29_0', 'http://www.travelport.com/schema/common_v29_0');
+		$conf->registerXPathNamespace('universal', 'http://www.travelport.com/schema/universal_v29_0');
 		
 		foreach($conf->xpath("//soap:Body") as $body){
 			foreach($conf->xpath("//universal:HotelCreateReservationRsp/universal:UniversalRecord/hotel:HotelReservation/hotel:HotelProperty") as $property){
@@ -67,7 +67,7 @@
 				}
 				$Type = null;
 				$Number = null;
-				foreach($conf->xpath("//universal:HotelCreateReservationRsp/universal:UniversalRecord/hotel:HotelReservation/hotel:HotelProperty/common_v26_0:PhoneNumber") as $phone){
+				foreach($conf->xpath("//universal:HotelCreateReservationRsp/universal:UniversalRecord/hotel:HotelReservation/hotel:HotelProperty/common_v29_0:PhoneNumber") as $phone){
 					foreach($phone->attributes() as $a=>$b){
 						if($a == 'Type'){
 						   $Type = $b;
@@ -91,15 +91,15 @@
 			echo "<p>&nbsp;</p>";
 			echo "<table>";
 			
-			foreach($conf->xpath("//universal:HotelCreateReservationRsp/universal:UniversalRecord/common_v26_0:BookingTraveler/common_v26_0:BookingTravelerName") as $traveler){
+			foreach($conf->xpath("//universal:HotelCreateReservationRsp/universal:UniversalRecord/common_v29_0:BookingTraveler/common_v29_0:BookingTravelerName") as $traveler){
 				foreach($traveler->attributes() as $a=>$b){
 					echo "<tr>";
 					echo "<td>$a</td>"."<td><input type=\"hidden\" id=\"$a\" name=\"$a\" value=\"$b\">$b</td>";
 					echo "</tr>";
 				}								
 			}
-			foreach($conf->xpath("//universal:HotelCreateReservationRsp/universal:UniversalRecord/common_v26_0:BookingTraveler/common_v26_0:Address") as $address){
-				foreach($address->children('common_v26_0',true) as $a=>$b){
+			foreach($conf->xpath("//universal:HotelCreateReservationRsp/universal:UniversalRecord/common_v29_0:BookingTraveler/common_v29_0:Address") as $address){
+				foreach($address->children('common_v29_0',true) as $a=>$b){
 					if($a != 'ProviderReservationInfoRef'){
 						echo "<tr>";
 						echo "<td>$a</td>"."<td><input type=\"hidden\" id=\"$a\" name=\"$a\" value=\"$b\">$b</td>";

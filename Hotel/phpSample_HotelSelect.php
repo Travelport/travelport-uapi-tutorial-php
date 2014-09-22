@@ -27,11 +27,11 @@ $message = <<<EOM
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
    <soapenv:Header/>
    <soapenv:Body>
-      <hot:HotelDetailsReq TargetBranch="$TARGETBRANCH" xmlns:hot="http://www.travelport.com/schema/hotel_v26_0">
-         <com:BillingPointOfSaleInfo OriginApplication="UAPI" xmlns:com="http://www.travelport.com/schema/common_v26_0"/>
+      <hot:HotelDetailsReq TargetBranch="$TARGETBRANCH" xmlns:hot="http://www.travelport.com/schema/hotel_v29_0">
+         <com:BillingPointOfSaleInfo OriginApplication="UAPI" xmlns:com="http://www.travelport.com/schema/common_v29_0"/>
          <hot:HotelProperty HotelChain="$HotelChain" HotelCode="$HotelCode" Name="$Name"/>
          <hot:HotelDetailsModifiers NumberOfAdults="$NUMADULTS" RateRuleDetail="Complete">
-            <com:PermittedProviders xmlns:com="http://www.travelport.com/schema/common_v26_0">
+            <com:PermittedProviders xmlns:com="http://www.travelport.com/schema/common_v29_0">
                <com:Provider Code="$PROVIDER"/>
             </com:PermittedProviders>
             <hot:HotelStay>
@@ -49,11 +49,11 @@ $message = <<<EOM
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
    <soapenv:Header/>
    <soapenv:Body>
-      <hot:HotelDetailsReq TargetBranch="$TARGETBRANCH" xmlns:hot="http://www.travelport.com/schema/hotel_v26_0">
-         <com:BillingPointOfSaleInfo OriginApplication="UAPI" xmlns:com="http://www.travelport.com/schema/common_v26_0"/>
+      <hot:HotelDetailsReq TargetBranch="$TARGETBRANCH" xmlns:hot="http://www.travelport.com/schema/hotel_v29_0">
+         <com:BillingPointOfSaleInfo OriginApplication="UAPI" xmlns:com="http://www.travelport.com/schema/common_v29_0"/>
          <hot:HotelProperty HotelChain="$HotelChain" HotelCode="$HotelCode" Name="$Name"/>
          <hot:HotelDetailsModifiers RateSupplier="$RateSupplier" NumberOfAdults="$NUMADULTS" RateRuleDetail="Complete">
-            <com:PermittedProviders xmlns:com="http://www.travelport.com/schema/common_v26_0">
+            <com:PermittedProviders xmlns:com="http://www.travelport.com/schema/common_v29_0">
                <com:Provider Code="$PROVIDER"/>
             </com:PermittedProviders>
             <hot:HotelStay>
@@ -61,7 +61,7 @@ $message = <<<EOM
                <hot:CheckoutDate>$CHECKOUTDATE</hot:CheckoutDate>
             </hot:HotelStay>
          </hot:HotelDetailsModifiers>
-         <com:HostToken Host="$PROVIDER" xmlns:com="http://www.travelport.com/schema/common_v26_0">$Token</com:HostToken>
+         <com:HostToken Host="$PROVIDER" xmlns:com="http://www.travelport.com/schema/common_v29_0">$Token</com:HostToken>
       </hot:HotelDetailsReq>
    </soapenv:Body>
 </soapenv:Envelope>

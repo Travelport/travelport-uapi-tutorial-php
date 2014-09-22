@@ -12,7 +12,7 @@
 * 
 * (C) 2013 Travelport, Inc. 
 * This code is for illustration purposes only. 
-* Schema used (UAPI_6.0) 
+* Schema used (UAPI_8.0) 
 */
 $TARGETBRANCH = 'Enter the Target Branch that you received in your Welcome letter';
 $USERNAME = 'Universal API/Enter the UserName that you received in your Welcome letter';
@@ -31,7 +31,7 @@ $message = <<<EOM
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
 	<soapenv:Header/>
 	<soapenv:Body>
-		<veh:VehicleSearchAvailabilityReq xmlns:com="http://www.travelport.com/schema/common_v25_0" xmlns:veh="http://www.travelport.com/schema/vehicle_v25_0" AuthorizedBy="user" TargetBranch="$TARGETBRANCH" TraceId="trace">
+		<veh:VehicleSearchAvailabilityReq xmlns:com="http://www.travelport.com/schema/common_v29_0" xmlns:veh="http://www.travelport.com/schema/vehicle_v29_0" AuthorizedBy="user" TargetBranch="$TARGETBRANCH" TraceId="trace">
 			<com:BillingPointOfSaleInfo OriginApplication="UAPI"/>
 			<veh:VehicleDateLocation PickupDateTime="$PICKUPDATE" PickupLocation="$LOCATION" PickupLocationType="$LOCATIONTYPE" ReturnDateTime="$DROPINDATE"/>
 		</veh:VehicleSearchAvailabilityReq>
