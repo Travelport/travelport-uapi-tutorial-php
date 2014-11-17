@@ -14,13 +14,13 @@
 * This code is for illustration purposes only. 
 */
 $TARGETBRANCH = 'Enter the Target Branch that you received in your Welcome letter';
-$CREDENTIALS = 'Universal API/API1234567:mypassword'; 
+$CREDENTIALS = 'Universal API/API1234567:Password provieded in the welcome leter'; 
 $message = <<<EOM
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
    <soapenv:Header/>
    <soapenv:Body>
       <air:AvailabilitySearchReq TraceId="trace" AuthorizedBy="user" TargetBranch="$TARGETBRANCH" xmlns:air="http://www.travelport.com/schema/air_v29_0" xmlns:com="http://www.travelport.com/schema/common_v29_0">
-         <com:BillingPointOfSaleInfo OriginApplication="F0730B69-UAPI"/>
+         <com:BillingPointOfSaleInfo OriginApplication="UAPI"/>
          <air:SearchAirLeg>
             <air:SearchOrigin>
                <com:Airport Code="LGW"/>
