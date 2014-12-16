@@ -68,7 +68,8 @@ curl_setopt($soap_do, CURLOPT_RETURNTRANSFER, true); // this will prevent the cu
 $return = curl_exec($soap_do);
 
 $file = "001-".$Provider."_AirAvailabilityRsp.xml"; // file name to save the response xml for test only(if you want to save the request/response)
-prettyPrint($return,$file);
+$content = prettyPrint($return,$file);
+parseOutput($content);
 //print '<br>';
 //echo $return;
 //print '<br>';
@@ -88,6 +89,75 @@ function prettyPrint($result,$file){
 //function to write output in a file
 function outputWriter($file,$content){	
 	file_put_contents($file, $content); // Write request/response and save them in the File
+}
+
+function parseOutput($content){	//parse the Search response to get values to use in detail request
+	$AirAvailabilitySearchRsp = $content; //use this if response is not saved anywhere else use above variable
+	//echo $AirAvailabilitySearchRsp;
+	$xml = simplexml_load_String("$AirAvailabilitySearchRsp", null, null, 'SOAP', true);	
+	
+	if($xml)
+		echo "Processing! Please wait!";
+	else{
+		trigger_error("Encoding Error!", E_USER_ERROR);
+	}
+
+	$Results = $xml->children('SOAP',true);
+	foreach($Results->children('SOAP',true) as $fault){
+		if(strcmp($fault->getName(),'Fault') == 0){
+			trigger_error("Error occurred request/response processing!", E_USER_ERROR);
+		}
+	}
+	
+	$count = 0;
+	$fileName = "flights.txt";
+	if(file_exists($fileName)){
+		file_put_contents($fileName, "");
+	}
+	foreach($Results->children('air',true) as $nodes){
+		foreach($nodes->children('air',true) as $hsr){
+			if(strcmp($hsr->getName(),'AirSegmentList') == 0){
+				foreach($hsr->children('air',true) as $hp){
+					if(strcmp($hp->getName(),'AirSegment') == 0){
+						$count = $count + 1;
+						file_put_contents($fileName,"\r\n"."Air Segment ".$count."\r\n"."\r\n", FILE_APPEND);
+						foreach($hp->attributes() as $a => $b	){
+								$GLOBALS[$a] = "$b";
+								//echo "$a"." : "."$b";
+								file_put_contents($fileName,$a." : ".$b."\r\n", FILE_APPEND);
+						}												
+					}					
+				}
+			}
+			//break;
+		}
+	}
+	$Token = 'Token';
+	$TokenKey = 'TokenKey';
+	$fileName = "tokens.txt";
+	if(file_exists($fileName)){
+		file_put_contents($fileName, "");
+	}
+	foreach($Results->children('air',true) as $nodes){
+		foreach($nodes->children('air',true) as $hsr){
+			if(strcmp($hsr->getName(),'HostTokenList') == 0){			
+				foreach($hsr->children('common_v29_0', true) as $ht){
+					if(strcmp($ht->getName(), 'HostToken') == 0){
+						$GLOBALS[$Token] = $ht[0];
+						foreach($ht->attributes() as $a => $b){
+							if(strcmp($a, 'Key') == 0){
+								file_put_contents($fileName,$TokenKey.":".$b."\r\n", FILE_APPEND);
+							}
+						}						
+						file_put_contents($fileName,$Token.":".$ht[0]."\r\n", FILE_APPEND);
+					}
+				}
+			}
+		}
+	}
+	
+	echo "\r\n"."Processing Done. Please check results in files.";
+
 }
 
 ?>
