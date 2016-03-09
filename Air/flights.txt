@@ -1,0 +1,1158 @@
+Air Pricing Solutions Details 1:
+--------------------------------------
+
+Journey Details: 
+--------------------------------------
+Airline: AA
+Flight 483
+From DEN
+To PHX
+Depart 2016-05-25T06:00:00.000-06:00
+Arrive 2016-05-25T06:54:00.000-07:00
+Airline: AA
+Flight 2032
+From PHX
+To SFO
+Depart 2016-05-25T07:35:00.000-07:00
+Arrive 2016-05-25T09:40:00.000-07:00
+
+Pricing Details: 
+--------------------------------------
+Total Price: USD125.60
+Base Price: USD95.82
+Approx. Total Price: USD125.60
+Approx. Base Price: USD95.82
+Taxes: USD29.78
+Approx. Taxes: USD29.78
+
+Air Pricing Solutions Details 2:
+--------------------------------------
+
+Journey Details: 
+--------------------------------------
+Airline: AA
+Flight 603
+From DEN
+To PHX
+Depart 2016-05-25T18:27:00.000-06:00
+Arrive 2016-05-25T19:19:00.000-07:00
+Airline: AA
+Flight 608
+From PHX
+To SFO
+Depart 2016-05-25T20:20:00.000-07:00
+Arrive 2016-05-25T22:25:00.000-07:00
+
+Pricing Details: 
+--------------------------------------
+Total Price: USD125.60
+Base Price: USD95.82
+Approx. Total Price: USD125.60
+Approx. Base Price: USD95.82
+Taxes: USD29.78
+Approx. Taxes: USD29.78
+
+Air Pricing Solutions Details 3:
+--------------------------------------
+
+Journey Details: 
+--------------------------------------
+Airline: VX
+Flight 861
+From DEN
+To SFO
+Depart 2016-05-25T07:00:00.000-06:00
+Arrive 2016-05-25T08:50:00.000-07:00
+
+Pricing Details: 
+--------------------------------------
+Total Price: USD130.10
+Base Price: USD107.91
+Approx. Total Price: USD130.10
+Approx. Base Price: USD107.91
+Taxes: USD22.19
+Approx. Taxes: USD22.19
+
+Air Pricing Solutions Details 4:
+--------------------------------------
+
+Journey Details: 
+--------------------------------------
+Airline: VX
+Flight 865
+From DEN
+To SFO
+Depart 2016-05-25T11:30:00.000-06:00
+Arrive 2016-05-25T13:20:00.000-07:00
+
+Pricing Details: 
+--------------------------------------
+Total Price: USD130.10
+Base Price: USD107.91
+Approx. Total Price: USD130.10
+Approx. Base Price: USD107.91
+Taxes: USD22.19
+Approx. Taxes: USD22.19
+
+Air Pricing Solutions Details 5:
+--------------------------------------
+
+Journey Details: 
+--------------------------------------
+Airline: VX
+Flight 867
+From DEN
+To SFO
+Depart 2016-05-25T18:20:00.000-06:00
+Arrive 2016-05-25T20:10:00.000-07:00
+
+Pricing Details: 
+--------------------------------------
+Total Price: USD130.10
+Base Price: USD107.91
+Approx. Total Price: USD130.10
+Approx. Base Price: USD107.91
+Taxes: USD22.19
+Approx. Taxes: USD22.19
+
+Air Pricing Solutions Details 6:
+--------------------------------------
+
+Journey Details: 
+--------------------------------------
+Airline: AA
+Flight 1982
+From DEN
+To SFO
+Depart 2016-05-25T12:17:00.000-06:00
+Arrive 2016-05-25T16:00:00.000-07:00
+
+Pricing Details: 
+--------------------------------------
+Total Price: USD134.10
+Base Price: USD107.91
+Approx. Total Price: USD134.10
+Approx. Base Price: USD107.91
+Taxes: USD26.19
+Approx. Taxes: USD26.19
+
+Air Pricing Solutions Details 7:
+--------------------------------------
+
+Journey Details: 
+--------------------------------------
+Airline: AA
+Flight 5932
+From DEN
+To LAX
+Depart 2016-05-25T11:43:00.000-06:00
+Arrive 2016-05-25T13:21:00.000-07:00
+Airline: AA
+Flight 209
+From LAX
+To SFO
+Depart 2016-05-25T16:00:00.000-07:00
+Arrive 2016-05-25T17:21:00.000-07:00
+
+Pricing Details: 
+--------------------------------------
+Total Price: USD138.60
+Base Price: USD107.91
+Approx. Total Price: USD138.60
+Approx. Base Price: USD107.91
+Taxes: USD30.69
+Approx. Taxes: USD30.69
+
+Air Pricing Solutions Details 8:
+--------------------------------------
+
+Journey Details: 
+--------------------------------------
+Airline: UA
+Flight 733
+From DEN
+To SFO
+Depart 2016-05-25T14:18:00.000-06:00
+Arrive 2016-05-25T15:57:00.000-07:00
+
+Pricing Details: 
+--------------------------------------
+Total Price: USD150.10
+Base Price: USD126.51
+Approx. Total Price: USD150.10
+Approx. Base Price: USD126.51
+Taxes: USD23.59
+Approx. Taxes: USD23.59
+
+Air Pricing Solutions Details 9:
+--------------------------------------
+
+Journey Details: 
+--------------------------------------
+Airline: UA
+Flight 735
+From DEN
+To SFO
+Depart 2016-05-25T15:50:00.000-06:00
+Arrive 2016-05-25T17:29:00.000-07:00
+
+Pricing Details: 
+--------------------------------------
+Total Price: USD150.10
+Base Price: USD126.51
+Approx. Total Price: USD150.10
+Approx. Base Price: USD126.51
+Taxes: USD23.59
+Approx. Taxes: USD23.59
+
+Air Pricing Solutions Details 10:
+--------------------------------------
+
+Journey Details: 
+--------------------------------------
+Airline: UA
+Flight 257
+From DEN
+To SFO
+Depart 2016-05-25T19:10:00.000-06:00
+Arrive 2016-05-25T20:53:00.000-07:00
+
+Pricing Details: 
+--------------------------------------
+Total Price: USD150.10
+Base Price: USD126.51
+Approx. Total Price: USD150.10
+Approx. Base Price: USD126.51
+Taxes: USD23.59
+Approx. Taxes: USD23.59
+
+Air Pricing Solutions Details 11:
+--------------------------------------
+
+Journey Details: 
+--------------------------------------
+Airline: UA
+Flight 256
+From DEN
+To SFO
+Depart 2016-05-25T06:00:00.000-06:00
+Arrive 2016-05-25T07:45:00.000-07:00
+
+Pricing Details: 
+--------------------------------------
+Total Price: USD150.10
+Base Price: USD126.51
+Approx. Total Price: USD150.10
+Approx. Base Price: USD126.51
+Taxes: USD23.59
+Approx. Taxes: USD23.59
+
+Air Pricing Solutions Details 12:
+--------------------------------------
+
+Journey Details: 
+--------------------------------------
+Airline: UA
+Flight 1852
+From DEN
+To SFO
+Depart 2016-05-25T07:00:00.000-06:00
+Arrive 2016-05-25T08:45:00.000-07:00
+
+Pricing Details: 
+--------------------------------------
+Total Price: USD150.10
+Base Price: USD126.51
+Approx. Total Price: USD150.10
+Approx. Base Price: USD126.51
+Taxes: USD23.59
+Approx. Taxes: USD23.59
+
+Air Pricing Solutions Details 13:
+--------------------------------------
+
+Journey Details: 
+--------------------------------------
+Airline: UA
+Flight 1853
+From DEN
+To SFO
+Depart 2016-05-25T10:40:00.000-06:00
+Arrive 2016-05-25T12:25:00.000-07:00
+
+Pricing Details: 
+--------------------------------------
+Total Price: USD150.10
+Base Price: USD126.51
+Approx. Total Price: USD150.10
+Approx. Base Price: USD126.51
+Taxes: USD23.59
+Approx. Taxes: USD23.59
+
+Air Pricing Solutions Details 14:
+--------------------------------------
+
+Journey Details: 
+--------------------------------------
+Airline: UA
+Flight 2031
+From DEN
+To SFO
+Depart 2016-05-25T12:30:00.000-06:00
+Arrive 2016-05-25T14:15:00.000-07:00
+
+Pricing Details: 
+--------------------------------------
+Total Price: USD150.10
+Base Price: USD126.51
+Approx. Total Price: USD150.10
+Approx. Base Price: USD126.51
+Taxes: USD23.59
+Approx. Taxes: USD23.59
+
+Air Pricing Solutions Details 15:
+--------------------------------------
+
+Journey Details: 
+--------------------------------------
+Airline: UA
+Flight 423
+From DEN
+To SFO
+Depart 2016-05-25T22:00:00.000-06:00
+Arrive 2016-05-25T23:46:00.000-07:00
+
+Pricing Details: 
+--------------------------------------
+Total Price: USD150.10
+Base Price: USD126.51
+Approx. Total Price: USD150.10
+Approx. Base Price: USD126.51
+Taxes: USD23.59
+Approx. Taxes: USD23.59
+
+Air Pricing Solutions Details 16:
+--------------------------------------
+
+Journey Details: 
+--------------------------------------
+Airline: UA
+Flight 721
+From DEN
+To SFO
+Depart 2016-05-25T11:20:00.000-06:00
+Arrive 2016-05-25T13:09:00.000-07:00
+
+Pricing Details: 
+--------------------------------------
+Total Price: USD150.10
+Base Price: USD126.51
+Approx. Total Price: USD150.10
+Approx. Base Price: USD126.51
+Taxes: USD23.59
+Approx. Taxes: USD23.59
+
+Air Pricing Solutions Details 17:
+--------------------------------------
+
+Journey Details: 
+--------------------------------------
+Airline: UA
+Flight 268
+From DEN
+To SFO
+Depart 2016-05-25T08:55:00.000-06:00
+Arrive 2016-05-25T10:45:00.000-07:00
+
+Pricing Details: 
+--------------------------------------
+Total Price: USD150.10
+Base Price: USD126.51
+Approx. Total Price: USD150.10
+Approx. Base Price: USD126.51
+Taxes: USD23.59
+Approx. Taxes: USD23.59
+
+Air Pricing Solutions Details 18:
+--------------------------------------
+
+Journey Details: 
+--------------------------------------
+Airline: UA
+Flight 1910
+From DEN
+To SFO
+Depart 2016-05-25T20:00:00.000-06:00
+Arrive 2016-05-25T21:50:00.000-07:00
+
+Pricing Details: 
+--------------------------------------
+Total Price: USD150.10
+Base Price: USD126.51
+Approx. Total Price: USD150.10
+Approx. Base Price: USD126.51
+Taxes: USD23.59
+Approx. Taxes: USD23.59
+
+Air Pricing Solutions Details 19:
+--------------------------------------
+
+Journey Details: 
+--------------------------------------
+Airline: DL
+Flight 285
+From DEN
+To SLC
+Depart 2016-05-25T08:45:00.000-06:00
+Arrive 2016-05-25T10:16:00.000-06:00
+Airline: DL
+Flight 2375
+From SLC
+To SFO
+Depart 2016-05-25T11:05:00.000-06:00
+Arrive 2016-05-25T12:11:00.000-07:00
+
+Pricing Details: 
+--------------------------------------
+Total Price: USD158.60
+Base Price: USD126.51
+Approx. Total Price: USD158.60
+Approx. Base Price: USD126.51
+Taxes: USD32.09
+Approx. Taxes: USD32.09
+
+Air Pricing Solutions Details 20:
+--------------------------------------
+
+Journey Details: 
+--------------------------------------
+Airline: DL
+Flight 310
+From DEN
+To SLC
+Depart 2016-05-25T19:05:00.000-06:00
+Arrive 2016-05-25T20:36:00.000-06:00
+Airline: DL
+Flight 1331
+From SLC
+To SFO
+Depart 2016-05-25T21:45:00.000-06:00
+Arrive 2016-05-25T22:50:00.000-07:00
+
+Pricing Details: 
+--------------------------------------
+Total Price: USD158.60
+Base Price: USD126.51
+Approx. Total Price: USD158.60
+Approx. Base Price: USD126.51
+Taxes: USD32.09
+Approx. Taxes: USD32.09
+
+Air Pricing Solutions Details 21:
+--------------------------------------
+
+Journey Details: 
+--------------------------------------
+Airline: UA
+Flight 737
+From DEN
+To SFO
+Depart 2016-05-25T17:25:00.000-06:00
+Arrive 2016-05-25T19:10:00.000-07:00
+
+Pricing Details: 
+--------------------------------------
+Total Price: USD189.10
+Base Price: USD162.79
+Approx. Total Price: USD189.10
+Approx. Base Price: USD162.79
+Taxes: USD26.31
+Approx. Taxes: USD26.31
+
+Air Pricing Solutions Details 22:
+--------------------------------------
+
+Journey Details: 
+--------------------------------------
+Airline: UA
+Flight 301
+From DEN
+To LAS
+Depart 2016-05-25T11:25:00.000-06:00
+Arrive 2016-05-25T12:23:00.000-07:00
+Airline: UA
+Flight 361
+From LAS
+To SFO
+Depart 2016-05-25T15:15:00.000-07:00
+Arrive 2016-05-25T17:00:00.000-07:00
+
+Pricing Details: 
+--------------------------------------
+Total Price: USD201.60
+Base Price: USD166.51
+Approx. Total Price: USD201.60
+Approx. Base Price: USD166.51
+Taxes: USD35.09
+Approx. Taxes: USD35.09
+
+Air Pricing Solutions Details 23:
+--------------------------------------
+
+Journey Details: 
+--------------------------------------
+Airline: UA
+Flight 775
+From DEN
+To LAS
+Depart 2016-05-25T16:30:00.000-06:00
+Arrive 2016-05-25T17:27:00.000-07:00
+Airline: UA
+Flight 1176
+From LAS
+To SFO
+Depart 2016-05-25T18:40:00.000-07:00
+Arrive 2016-05-25T20:16:00.000-07:00
+
+Pricing Details: 
+--------------------------------------
+Total Price: USD211.60
+Base Price: USD175.81
+Approx. Total Price: USD211.60
+Approx. Base Price: USD175.81
+Taxes: USD35.79
+Approx. Taxes: USD35.79
+
+Air Pricing Solutions Details 24:
+--------------------------------------
+
+Journey Details: 
+--------------------------------------
+Airline: UA
+Flight 1831
+From DEN
+To SFO
+Depart 2016-05-25T18:26:00.000-06:00
+Arrive 2016-05-25T20:06:00.000-07:00
+
+Pricing Details: 
+--------------------------------------
+Total Price: USD223.10
+Base Price: USD194.42
+Approx. Total Price: USD223.10
+Approx. Base Price: USD194.42
+Taxes: USD28.68
+Approx. Taxes: USD28.68
+
+Air Pricing Solutions Details 25:
+--------------------------------------
+
+Journey Details: 
+--------------------------------------
+Airline: UA
+Flight 277
+From DEN
+To SFO
+Depart 2016-05-25T08:00:00.000-06:00
+Arrive 2016-05-25T09:50:00.000-07:00
+
+Pricing Details: 
+--------------------------------------
+Total Price: USD223.10
+Base Price: USD194.42
+Approx. Total Price: USD223.10
+Approx. Base Price: USD194.42
+Taxes: USD28.68
+Approx. Taxes: USD28.68
+
+Air Pricing Solutions Details 26:
+--------------------------------------
+
+Journey Details: 
+--------------------------------------
+Airline: AA
+Flight 5914
+From DEN
+To LAX
+Depart 2016-05-25T12:20:00.000-06:00
+Arrive 2016-05-25T13:40:00.000-07:00
+Airline: AA
+Flight 5971
+From LAX
+To SFO
+Depart 2016-05-25T14:15:00.000-07:00
+Arrive 2016-05-25T15:41:00.000-07:00
+
+Pricing Details: 
+--------------------------------------
+Total Price: USD226.60
+Base Price: USD189.76
+Approx. Total Price: USD226.60
+Approx. Base Price: USD189.76
+Taxes: USD36.84
+Approx. Taxes: USD36.84
+
+Air Pricing Solutions Details 27:
+--------------------------------------
+
+Journey Details: 
+--------------------------------------
+Airline: UA
+Flight 447
+From DEN
+To LAX
+Depart 2016-05-25T08:00:00.000-06:00
+Arrive 2016-05-25T09:24:00.000-07:00
+Airline: UA
+Flight 708
+From LAX
+To SFO
+Depart 2016-05-25T10:00:00.000-07:00
+Arrive 2016-05-25T11:34:00.000-07:00
+
+Pricing Details: 
+--------------------------------------
+Total Price: USD226.60
+Base Price: USD189.76
+Approx. Total Price: USD226.60
+Approx. Base Price: USD189.76
+Taxes: USD36.84
+Approx. Taxes: USD36.84
+
+Air Pricing Solutions Details 28:
+--------------------------------------
+
+Journey Details: 
+--------------------------------------
+Airline: UA
+Flight 6038
+From DEN
+To ONT
+Depart 2016-05-25T18:45:00.000-06:00
+Arrive 2016-05-25T20:00:00.000-07:00
+Airline: UA
+Flight 5107
+From ONT
+To SFO
+Depart 2016-05-25T20:46:00.000-07:00
+Arrive 2016-05-25T22:15:00.000-07:00
+
+Pricing Details: 
+--------------------------------------
+Total Price: USD240.10
+Base Price: USD204.65
+Approx. Total Price: USD240.10
+Approx. Base Price: USD204.65
+Taxes: USD35.45
+Approx. Taxes: USD35.45
+
+Air Pricing Solutions Details 29:
+--------------------------------------
+
+Journey Details: 
+--------------------------------------
+Airline: AS
+Flight 679
+From DEN
+To SEA
+Depart 2016-05-25T11:00:00.000-06:00
+Arrive 2016-05-25T12:40:00.000-07:00
+Airline: AS
+Flight 316
+From SEA
+To SFO
+Depart 2016-05-25T13:35:00.000-07:00
+Arrive 2016-05-25T15:45:00.000-07:00
+
+Pricing Details: 
+--------------------------------------
+Total Price: USD244.60
+Base Price: USD206.51
+Approx. Total Price: USD244.60
+Approx. Base Price: USD206.51
+Taxes: USD38.09
+Approx. Taxes: USD38.09
+
+Air Pricing Solutions Details 30:
+--------------------------------------
+
+Journey Details: 
+--------------------------------------
+Airline: AS
+Flight 677
+From DEN
+To SEA
+Depart 2016-05-25T15:55:00.000-06:00
+Arrive 2016-05-25T17:45:00.000-07:00
+Airline: AS
+Flight 304
+From SEA
+To SFO
+Depart 2016-05-25T18:55:00.000-07:00
+Arrive 2016-05-25T21:03:00.000-07:00
+
+Pricing Details: 
+--------------------------------------
+Total Price: USD244.60
+Base Price: USD206.51
+Approx. Total Price: USD244.60
+Approx. Base Price: USD206.51
+Taxes: USD38.09
+Approx. Taxes: USD38.09
+
+Air Pricing Solutions Details 31:
+--------------------------------------
+
+Journey Details: 
+--------------------------------------
+Airline: UA
+Flight 775
+From DEN
+To LAS
+Depart 2016-05-25T16:30:00.000-06:00
+Arrive 2016-05-25T17:27:00.000-07:00
+Airline: AA
+Flight 73
+From LAS
+To LAX
+Depart 2016-05-25T19:02:00.000-07:00
+Arrive 2016-05-25T20:14:00.000-07:00
+Airline: AA
+Flight 5941
+From LAX
+To SFO
+Depart 2016-05-25T21:00:00.000-07:00
+Arrive 2016-05-25T22:22:00.000-07:00
+
+Pricing Details: 
+--------------------------------------
+Total Price: USD245.60
+Base Price: USD203.72
+Approx. Total Price: USD245.60
+Approx. Base Price: USD203.72
+Taxes: USD41.88
+Approx. Taxes: USD41.88
+
+Air Pricing Solutions Details 32:
+--------------------------------------
+
+Journey Details: 
+--------------------------------------
+Airline: UA
+Flight 701
+From DEN
+To LAX
+Depart 2016-05-25T19:00:00.000-06:00
+Arrive 2016-05-25T20:30:00.000-07:00
+Airline: UA
+Flight 357
+From LAX
+To SFO
+Depart 2016-05-25T21:31:00.000-07:00
+Arrive 2016-05-25T22:44:00.000-07:00
+
+Pricing Details: 
+--------------------------------------
+Total Price: USD247.60
+Base Price: USD209.30
+Approx. Total Price: USD247.60
+Approx. Base Price: USD209.30
+Taxes: USD38.30
+Approx. Taxes: USD38.30
+
+Air Pricing Solutions Details 33:
+--------------------------------------
+
+Journey Details: 
+--------------------------------------
+Airline: UA
+Flight 301
+From DEN
+To LAS
+Depart 2016-05-25T11:25:00.000-06:00
+Arrive 2016-05-25T12:23:00.000-07:00
+Airline: AA
+Flight 2384
+From LAS
+To LAX
+Depart 2016-05-25T16:10:00.000-07:00
+Arrive 2016-05-25T17:22:00.000-07:00
+Airline: AA
+Flight 5941
+From LAX
+To SFO
+Depart 2016-05-25T21:00:00.000-07:00
+Arrive 2016-05-25T22:22:00.000-07:00
+
+Pricing Details: 
+--------------------------------------
+Total Price: USD267.60
+Base Price: USD224.19
+Approx. Total Price: USD267.60
+Approx. Base Price: USD224.19
+Taxes: USD43.41
+Approx. Taxes: USD43.41
+
+Air Pricing Solutions Details 34:
+--------------------------------------
+
+Journey Details: 
+--------------------------------------
+Airline: UA
+Flight 5478
+From DEN
+To PHX
+Depart 2016-05-25T14:35:00.000-06:00
+Arrive 2016-05-25T15:35:00.000-07:00
+Airline: UA
+Flight 5445
+From PHX
+To SFO
+Depart 2016-05-25T19:14:00.000-07:00
+Arrive 2016-05-25T21:24:00.000-07:00
+
+Pricing Details: 
+--------------------------------------
+Total Price: USD279.60
+Base Price: USD239.07
+Approx. Total Price: USD279.60
+Approx. Base Price: USD239.07
+Taxes: USD40.53
+Approx. Taxes: USD40.53
+
+Air Pricing Solutions Details 35:
+--------------------------------------
+
+Journey Details: 
+--------------------------------------
+Airline: UA
+Flight 1141
+From DEN
+To PHX
+Depart 2016-05-25T16:10:00.000-06:00
+Arrive 2016-05-25T17:07:00.000-07:00
+Airline: UA
+Flight 5445
+From PHX
+To SFO
+Depart 2016-05-25T19:14:00.000-07:00
+Arrive 2016-05-25T21:24:00.000-07:00
+
+Pricing Details: 
+--------------------------------------
+Total Price: USD279.60
+Base Price: USD239.07
+Approx. Total Price: USD279.60
+Approx. Base Price: USD239.07
+Taxes: USD40.53
+Approx. Taxes: USD40.53
+
+Air Pricing Solutions Details 36:
+--------------------------------------
+
+Journey Details: 
+--------------------------------------
+Airline: UA
+Flight 469
+From DEN
+To DFW
+Depart 2016-05-25T12:46:00.000-06:00
+Arrive 2016-05-25T15:47:00.000-05:00
+Airline: UA
+Flight 5739
+From DFW
+To LAX
+Depart 2016-05-25T16:25:00.000-05:00
+Arrive 2016-05-25T17:58:00.000-07:00
+Airline: UA
+Flight 357
+From LAX
+To SFO
+Depart 2016-05-25T21:31:00.000-07:00
+Arrive 2016-05-25T22:44:00.000-07:00
+
+Pricing Details: 
+--------------------------------------
+Total Price: USD292.60
+Base Price: USD247.44
+Approx. Total Price: USD292.60
+Approx. Base Price: USD247.44
+Taxes: USD45.16
+Approx. Taxes: USD45.16
+
+Air Pricing Solutions Details 37:
+--------------------------------------
+
+Journey Details: 
+--------------------------------------
+Airline: AA
+Flight 5932
+From DEN
+To LAX
+Depart 2016-05-25T11:43:00.000-06:00
+Arrive 2016-05-25T13:21:00.000-07:00
+Airline: UA
+Flight 460
+From LAX
+To SFO
+Depart 2016-05-25T16:25:00.000-07:00
+Arrive 2016-05-25T17:49:00.000-07:00
+
+Pricing Details: 
+--------------------------------------
+Total Price: USD304.60
+Base Price: USD262.32
+Approx. Total Price: USD304.60
+Approx. Base Price: USD262.32
+Taxes: USD42.28
+Approx. Taxes: USD42.28
+
+Air Pricing Solutions Details 38:
+--------------------------------------
+
+Journey Details: 
+--------------------------------------
+Airline: UA
+Flight 772
+From DEN
+To SMF
+Depart 2016-05-25T15:15:00.000-06:00
+Arrive 2016-05-25T16:46:00.000-07:00
+Airline: UA
+Flight 5097
+From SMF
+To SFO
+Depart 2016-05-25T17:50:00.000-07:00
+Arrive 2016-05-25T18:44:00.000-07:00
+
+Pricing Details: 
+--------------------------------------
+Total Price: USD342.60
+Base Price: USD297.68
+Approx. Total Price: USD342.60
+Approx. Base Price: USD297.68
+Taxes: USD44.92
+Approx. Taxes: USD44.92
+
+Air Pricing Solutions Details 39:
+--------------------------------------
+
+Journey Details: 
+--------------------------------------
+Airline: AA
+Flight 5932
+From DEN
+To LAX
+Depart 2016-05-25T11:43:00.000-06:00
+Arrive 2016-05-25T13:21:00.000-07:00
+Airline: AA
+Flight 170
+From LAX
+To LAS
+Depart 2016-05-25T14:00:00.000-07:00
+Arrive 2016-05-25T15:17:00.000-07:00
+Airline: UA
+Flight 1176
+From LAS
+To SFO
+Depart 2016-05-25T18:40:00.000-07:00
+Arrive 2016-05-25T20:16:00.000-07:00
+
+Pricing Details: 
+--------------------------------------
+Total Price: USD356.60
+Base Price: USD306.97
+Approx. Total Price: USD356.60
+Approx. Base Price: USD306.97
+Taxes: USD49.63
+Approx. Taxes: USD49.63
+
+Air Pricing Solutions Details 40:
+--------------------------------------
+
+Journey Details: 
+--------------------------------------
+Airline: UA
+Flight 5526
+From DEN
+To SMF
+Depart 2016-05-25T08:05:00.000-06:00
+Arrive 2016-05-25T09:32:00.000-07:00
+Airline: UA
+Flight 5026
+From SMF
+To SFO
+Depart 2016-05-25T12:03:00.000-07:00
+Arrive 2016-05-25T12:58:00.000-07:00
+
+Pricing Details: 
+--------------------------------------
+Total Price: USD369.60
+Base Price: USD322.79
+Approx. Total Price: USD369.60
+Approx. Base Price: USD322.79
+Taxes: USD46.81
+Approx. Taxes: USD46.81
+
+Air Pricing Solutions Details 41:
+--------------------------------------
+
+Journey Details: 
+--------------------------------------
+Airline: UA
+Flight 5494
+From DEN
+To PSP
+Depart 2016-05-25T11:15:00.000-06:00
+Arrive 2016-05-25T12:26:00.000-07:00
+Airline: UA
+Flight 5439
+From PSP
+To SFO
+Depart 2016-05-25T13:09:00.000-07:00
+Arrive 2016-05-25T14:46:00.000-07:00
+
+Pricing Details: 
+--------------------------------------
+Total Price: USD497.60
+Base Price: USD441.86
+Approx. Total Price: USD497.60
+Approx. Base Price: USD441.86
+Taxes: USD55.74
+Approx. Taxes: USD55.74
+
+Air Pricing Solutions Details 42:
+--------------------------------------
+
+Journey Details: 
+--------------------------------------
+Airline: UA
+Flight 5306
+From DEN
+To BOI
+Depart 2016-05-25T08:00:00.000-06:00
+Arrive 2016-05-25T10:03:00.000-06:00
+Airline: UA
+Flight 5543
+From BOI
+To SFO
+Depart 2016-05-25T10:37:00.000-06:00
+Arrive 2016-05-25T11:31:00.000-07:00
+
+Pricing Details: 
+--------------------------------------
+Total Price: USD562.10
+Base Price: USD506.05
+Approx. Total Price: USD562.10
+Approx. Base Price: USD506.05
+Taxes: USD56.05
+Approx. Taxes: USD56.05
+
+Air Pricing Solutions Details 43:
+--------------------------------------
+
+Journey Details: 
+--------------------------------------
+Airline: UA
+Flight 5688
+From DEN
+To BOI
+Depart 2016-05-25T15:10:00.000-06:00
+Arrive 2016-05-25T17:17:00.000-06:00
+Airline: UA
+Flight 5743
+From BOI
+To SFO
+Depart 2016-05-25T17:55:00.000-06:00
+Arrive 2016-05-25T18:46:00.000-07:00
+
+Pricing Details: 
+--------------------------------------
+Total Price: USD562.10
+Base Price: USD506.05
+Approx. Total Price: USD562.10
+Approx. Base Price: USD506.05
+Taxes: USD56.05
+Approx. Taxes: USD56.05
+
+Air Pricing Solutions Details 44:
+--------------------------------------
+
+Journey Details: 
+--------------------------------------
+Airline: UA
+Flight 5862
+From DEN
+To FAT
+Depart 2016-05-25T15:10:00.000-06:00
+Arrive 2016-05-25T16:36:00.000-07:00
+Airline: UA
+Flight 5395
+From FAT
+To SFO
+Depart 2016-05-25T17:10:00.000-07:00
+Arrive 2016-05-25T18:08:00.000-07:00
+
+Pricing Details: 
+--------------------------------------
+Total Price: USD628.60
+Base Price: USD563.72
+Approx. Total Price: USD628.60
+Approx. Base Price: USD563.72
+Taxes: USD64.88
+Approx. Taxes: USD64.88
+
+Air Pricing Solutions Details 45:
+--------------------------------------
+
+Journey Details: 
+--------------------------------------
+Airline: UA
+Flight 5375
+From DEN
+To FAT
+Depart 2016-05-25T08:00:00.000-06:00
+Arrive 2016-05-25T09:25:00.000-07:00
+Airline: UA
+Flight 5876
+From FAT
+To SFO
+Depart 2016-05-25T12:17:00.000-07:00
+Arrive 2016-05-25T13:17:00.000-07:00
+
+Pricing Details: 
+--------------------------------------
+Total Price: USD628.60
+Base Price: USD563.72
+Approx. Total Price: USD628.60
+Approx. Base Price: USD563.72
+Taxes: USD64.88
+Approx. Taxes: USD64.88
+
+Air Pricing Solutions Details 46:
+--------------------------------------
+
+Journey Details: 
+--------------------------------------
+Airline: UA
+Flight 5399
+From DEN
+To SBA
+Depart 2016-05-25T18:50:00.000-06:00
+Arrive 2016-05-25T20:30:00.000-07:00
+Airline: UA
+Flight 5727
+From SBA
+To SFO
+Depart 2016-05-25T21:02:00.000-07:00
+Arrive 2016-05-25T22:16:00.000-07:00
+
+Pricing Details: 
+--------------------------------------
+Total Price: USD823.60
+Base Price: USD745.12
+Approx. Total Price: USD823.60
+Approx. Base Price: USD745.12
+Taxes: USD78.48
+Approx. Taxes: USD78.48
+
