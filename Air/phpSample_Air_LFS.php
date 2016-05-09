@@ -213,7 +213,18 @@ function parseOutput($content){	//parse the Search response to get values to use
 								if(strcmp($e, "TotalPrice") == 0){											
 									file_put_contents($fileName,"Total Price: ".$f."\r\n", FILE_APPEND);	
 								}
+								
 						}
+						foreach($priceInfo->children('air',true) as $bookingInfo){
+							if(strcmp($bookingInfo->getName(),'BookingInfo') == 0){
+								foreach($bookingInfo->attributes() as $e => $f){
+									if(strcmp($e, "CabinClass") == 0){
+										file_put_contents($fileName,"Cabin Class: ".$f."\r\n", FILE_APPEND);
+									}
+								}
+							}
+						}
+						
 					}
 				}
 				file_put_contents($fileName,"\r\n", FILE_APPEND);
