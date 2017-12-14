@@ -9,8 +9,6 @@ https://marketing.cloud.travelport.com/PCI_DSS_compliance
 
 
 
-PHP Tutorial to Consume UAPI for Air Search, Hotel Search/Detail/Book, Vehicle Search
-
 PHP travelport-uapi-tutorial-php
 ========================
 
