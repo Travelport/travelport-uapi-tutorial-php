@@ -271,7 +271,7 @@ function PriceSegment($segment){
 function parseOutput($content){	//parse the Search response to get values to use in detail request
 	$LowFareSearchRsp = $content; //use this if response is not saved anywhere else use above variable
 	//echo $LowFareSearchRsp;
-	$xml = simplexml_load_String("$LowFareSearchRsp", null, null, 'SOAP', true);
+	$xml = simplexml_load_String("$LowFareSearchRsp", null, 'SOAP', true);
 
 	if($xml)
 		echo "Processing! Please wait!";
@@ -379,7 +379,7 @@ function parseOutput($content){	//parse the Search response to get values to use
 		}
 	}
 
-	PriceSegment($segment);
+	//PriceSegment($segment);
 
 	$Token = 'Token';
 	$TokenKey = 'TokenKey';

@@ -94,7 +94,7 @@ function outputWriter($file,$content){
 function parseOutput($content){	//parse the Search response to get values to use in detail request
 	$AirAvailabilitySearchRsp = $content; //use this if response is not saved anywhere else use above variable
 	//echo $AirAvailabilitySearchRsp;
-	$xml = simplexml_load_String("$AirAvailabilitySearchRsp", null, null, 'SOAP', true);	
+	$xml = simplexml_load_String("$AirAvailabilitySearchRsp", null, 'SOAP', true);	
 	
 	if($xml)
 		echo "Processing! Please wait!";
